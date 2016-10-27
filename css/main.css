@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header{
+  background-color: #d05c2e;
+}
+
+h1{
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  padding: .4rem 0;
+}
+
+nav{
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.left{
+  float: left;
+  width: 40px;
+
+}
+
+.right{
+  float: right;
+  width: 40px;
+}
