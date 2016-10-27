@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #fff;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -8,29 +8,63 @@ html {
   box-sizing: inherit;
 }
 
-header{
+header {
   background-color: #d05c2e;
 }
 
-h1{
+h1 {
   color: #fff;
   font-size: 2rem;
   margin: 0;
   padding: .4rem 0;
+  text-align: center;
+  text-weight: bold;
 }
 
-nav{
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
   color: #fff;
   font-size: 1.125rem;
+  text-decoration: none;
+  margin: 0 0.7rem;
+  padding: .5rem 0 0;
 }
 
-.left{
+.left {
   float: left;
   width: 40px;
+  margin-top: .3rem;
+  margin-left: .3rem;
 
 }
 
-.right{
+.right {
   float: right;
   width: 40px;
+  margin-top: .3rem;
+  margin-right: .3rem;
+}
+
+li {
+  boreder-top: 1px solid #a63f38;
+  bored-bottom: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
+  float: left;
+  width: 33.3333%;
+  background-color: #d05c3e;
+  list-style-type: none;
+  text-align: center;
+}
+
+li:hover a:hover {
+  background-color: #a63f38;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
